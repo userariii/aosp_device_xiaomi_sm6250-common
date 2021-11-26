@@ -28,6 +28,9 @@ persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-
 # Brightness Curve
 persist.sys.brightness.low.gamma=true
 
+# Camera
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.pixelexperience.faceunlock
+
 # CNE
 persist.vendor.cne.feature=1
 
