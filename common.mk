@@ -530,6 +530,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
-    SystemUI \
+    SystemUIGoogle \
     Nexuslauncher \
     lawnchair
