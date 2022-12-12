@@ -1,3 +1,6 @@
+# APEX
+ro.apex.updatable=false
+
 # Audio
 use.voice.path.for.pcm.voip=true
 ro.config.media_vol_default=10
