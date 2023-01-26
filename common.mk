@@ -426,6 +426,10 @@ PRODUCT_SOONG_NAMESPACES += \
     kernel/xiaomi/sm6250 \
     hardware/xiaomi
 
+
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Shim
 PRODUCT_PACKAGES += \
     libwatermark_shim
