@@ -86,9 +86,6 @@ media.aac_51_output_enabled=true
 mm.enable.smoothstreaming=true
 persist.mm.enable.prefetch=true
 
-# Netflix
-ro.netflix.bsp_rev=Q6250-19132-1
-
 # Perf
 ro.vendor.qti.sys.fw.bservice_enable=true
 
