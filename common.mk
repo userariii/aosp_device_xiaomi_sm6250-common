@@ -38,8 +38,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Audio
 PRODUCT_PACKAGES += \
-    libvolumelistener
-
+    libvolumelistener \
+    libspatialaudio \
+    sound_trigger.primary.lahaina
+    
 PRODUCT_PACKAGES += \
     audio.usb.default \
     audio.r_submix.default \
@@ -392,6 +394,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.servicetracker@1.2-service
 
+# Spatial Audio
+PRODUCT_PACKAGES += \
+    frameworks/native/data/etc/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
+
 # NeuralNetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
@@ -532,3 +538,4 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # DeviceSettings
 PRODUCT_PACKAGES += \
     XiaomiParts
+
