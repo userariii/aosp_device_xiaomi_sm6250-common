@@ -33,8 +33,9 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcompostprocbundle
-
+    libqcompostprocbundle \
+    libspatialaudio
+    
 PRODUCT_PACKAGES += \
     audio.primary.atoll \
     audio.usb.default \
@@ -420,6 +421,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# Spatial Audio
+PRODUCT_PACKAGES += \
+    frameworks/native/data/etc/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
+    
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \

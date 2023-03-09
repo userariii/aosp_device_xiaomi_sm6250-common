@@ -7,6 +7,7 @@ persist.audio.fluence.speaker=true
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 ro.af.client_heap_size_kbyte=7168
+ro.audio.spatializer_enabled=true
 ro.config.vc_call_vol_steps=11
 ro.qc.sdk.audio.fluencetype=none
 
