@@ -16,4 +16,7 @@
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
     </string-array>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">60</integer>
 </resources>
