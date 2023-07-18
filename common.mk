@@ -354,7 +354,6 @@ PRODUCT_PACKAGES += \
    CarrierConfigOverlay \
    DialerOverlay \
    FrameworksResOverlay \
-   NotchBarKillerOverlay \
    SettingsOverlay \
    SettingsProviderOverlay \
    SystemUIOverlay \
