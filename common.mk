@@ -172,10 +172,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0
 
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
