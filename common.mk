@@ -278,7 +278,7 @@ PRODUCT_COPY_FILES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.xiaomi
+    android.hardware.light@2.0-service.xiaomi_sm6250
 
 # Media
 PRODUCT_PACKAGES += \
@@ -429,8 +429,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    kernel/xiaomi/sm6250 \
-    hardware/xiaomi
+    kernel/xiaomi/sm6250
 
 
 # Speed profile services and wifi-service to reduce RAM and storage
